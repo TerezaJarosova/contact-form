@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktní formulář</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
+</head>
+
+<body>
+        <section class="contact row">
+            <h2>Kontaktní formulář</h2>
+            <form action="PHPMailer/mailer.php" method="post" novalidate>
+                <input type="text" name="name" placeholder="Jméno *">
+                <input type="text" name="surname" placeholder="Příjmení *">
+                <input type="email" name="email" placeholder="E-mail *">
+                <textarea name="message" placeholder="Vaše zpráva *"></textarea>
+                <button class="btn-submit">Pojďme spolupracovat!</button>
+            </form>
+        </section>
+    
+    <script src="js/form-validation.js"></script>
+</body>
+</html>
