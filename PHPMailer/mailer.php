@@ -28,7 +28,7 @@ try {
     $mail->Host       = 'mail.spacemail.com';     
     $mail->SMTPAuth   = true;
     $mail->Username   = 'contact@theas.design';   
-    $mail->Password   = '4h4J=c-%H9vN4&n';            
+    $mail->Password   = 'YOUR_SMTP_PASSWORD';            
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; 
     $mail->Port       = 465;
 
